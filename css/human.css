@@ -1,0 +1,111 @@
+/*
+Style the body 
+
+Use 80px of padding all around the body.
+Use (254, 249, 242) as the background color.
+Use 16px font size
+ */
+body{
+    padding: 80px;
+    background-color: rgb(254,249,242);
+    font-size: 16px;
+}
+
+
+/*
+Style the container class
+
+Use appropriate grid properties to achieve the desired layout
+ */
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+
+
+/*
+Use appropriate flex properties on content-wrap, pros and cons classes to achieve the desired layout
+ */
+
+
+
+/*
+Style the image to have the proper width and a solid border
+ */
+
+img{
+    border: 3px solid #000;
+}
+
+/*
+Style the H1 to have 48px font size and 700 weight
+ */
+
+h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+/*
+Style the H2 to have 28px font size and 500 weight
+ */
+
+ h2{
+    font-size: 28px;
+    font-weight: 500;
+ }
+
+
+/*
+Style the H3 to have 24px font size and 400 weight and the proper alignment
+ */
+
+h3{
+    font-size: 24px;
+    font-weight: 400;
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+}
+
+
+
+/*
+Style the Pros box to have a background color of (216, 244, 214)
+ */
+
+.pros{
+    background-color: rgb(216,244,214);
+}
+
+
+/*
+Style the cons box to have a background color of (231, 162, 162)
+ */
+
+ .cons{
+    background-color: rgb(231,162,162);
+ }
+
+
+/*
+Add bullet points to the list items 
+ */
+li{
+    list-style-type: circle;
+}
+
+/*
+Make sure the button is centered, has a margin of 64px on the top, fint size of 24px and background color of (204, 223, 247)
+ */
+ #button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+    font-size: 24px;
+    background-color: rgb(204,223,247);
+ }
+

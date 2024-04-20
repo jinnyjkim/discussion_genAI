@@ -1,1 +1,1 @@
-# discussion_genAI
+# GenAIDiscussionStarterCode
